@@ -1,3 +1,5 @@
+# "response" = Exemple in output nearbysearch
+
 response = {
 	"html_attributions":[
 		
@@ -704,6 +706,7 @@ response = {
     "status":"OK"
 }
 
+'''
 import pandas as pd
 
 df = pd.DataFrame(data=response["results"])
@@ -721,3 +724,4 @@ df.to_excel(datatoexcel)
 datatoexcel.save()
 
 print('DataFrame is written to Excel File successfully.')
+'''
